@@ -1,0 +1,54 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper div{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    fill: #3077C6;
+    width: 205px;
+    height: 40px;
+    cursor: pointer;
+}
+#themeSwitch{
+    margin-left: 24px;
+    fill: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+#account{
+    margin-left: 24px;
+    fill: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+#account:hover, #themeSwitch:hover{
+    fill: #F5BD41;
+}
+a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 24px;
+    position: relative;
+}
+a:after{
+    margin-top: 12px;
+    content: "";
+    position: absolute;
+    left: 10%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 4px;
+    transition: 0.5s;
+}
+a:hover:after{
+    background: #F5BD41;
+    width: 80%;
+}
