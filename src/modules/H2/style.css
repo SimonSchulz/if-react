@@ -1,0 +1,20 @@
+h2 {
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #383838;
+}
+h2:hover::after {
+    position: absolute;
+    margin-top: 20px;
+    display: block;
+    content: "";
+    left: 42.5%;
+    border: 0;
+    width: 15%;
+    height: 4px;
+    background: #F5BD41;
+}

@@ -1,0 +1,26 @@
+#destination {
+    outline-color: #F5BD41;
+    width: 476px;
+    padding: 18px 15px;
+    font-size: 18px;
+    color: #383838;
+    border-radius: 8px;
+    border: none;
+}
+label {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    color: #FFFFFF;
+}
+.search{
+    width: 192px;
+    height: 64px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    background: #3077C6;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
