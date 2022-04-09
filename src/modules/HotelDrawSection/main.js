@@ -1,8 +1,8 @@
 import "../Container/style.css"
 import "./styles.css"
+import "./h2.css"
 // eslint-disable-next-line no-unused-vars
 import Item from "./Item";
-import H2 from "../H2/h2"
 import {useState} from "react";
 export  default function HotelDrawSection({text, data}) {
     const sliderLength = 4;
@@ -22,7 +22,7 @@ export  default function HotelDrawSection({text, data}) {
     return (
         <section className="hotel_main_section">
             <div className="Container">
-                <H2 text={text}/>
+                <h2>{text}</h2>
                 <div className="hotel_item_container">
                     <button className="btn_prev" onClick={handlePrevClick}>{"<"}</button>
                     {data.slice(sliderStartIndex, sliderLength + sliderStartIndex)
