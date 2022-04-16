@@ -2,9 +2,8 @@ import React from 'react';
 import "./style.css";
 import "../Container/style.css";
 import Navigation from "./Navigation/navigation";
-import {InputDestination} from "./InputsBlock/destinationInput";
+import {InputDestination} from "./InputsBlock/InputsForm";
 import SvgLinks from "./Navigation/SvgLinks";
-
 const Header = ({searchValue, setSearchValue}) => {
     return (
         <section className="header">

@@ -1,0 +1,10 @@
+.second_input{
+    width: 259px;
+}
+.calender{
+    width: 100%;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    outline-color: #F5BD41;
+}
