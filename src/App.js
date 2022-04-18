@@ -2,6 +2,7 @@ import './App.css';
 import Header from "./modules/Header/main";
 import HotelDrawSection from "./modules/HotelDrawSection/main";
 import React, {useEffect, useState} from "react";
+import Footer from "./modules/Footer/footer";
 
 function App() {
     const [data,setData]= useState([]);
@@ -20,6 +21,7 @@ function App() {
               <HotelDrawSection text={"Available hotels"} data={searchValue} />
               :<HotelDrawSection text={"Hotel not found"} data={[]}/> }
       <HotelDrawSection text={"Homes Guest loves"} data={data} />
+          <Footer/>
       </>
   );
 }

@@ -1,0 +1,25 @@
+footer{
+   background:  #10367C;
+   padding: 120px 0;
+}
+.footer-wrapper{
+   display: flex;
+   justify-content: space-between;
+
+}
+.footer-wrapper li{
+   list-style: none;
+   margin-bottom: 25px;
+}
+.footer-wrapper a{
+   color: #FFFFFF;
+   font-size: 20px;
+   line-height: 23px;
+   text-decoration: none;
+}
+ footer p {
+    margin-top: 64px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
