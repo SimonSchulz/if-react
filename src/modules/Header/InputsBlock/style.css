@@ -1,7 +1,7 @@
 #destination {
     outline-color: #F5BD41;
     width: 476px;
-    padding: 18px 15px;
+    padding: 16px 15px;
     font-size: 18px;
     color: #383838;
     border-radius: 8px;
@@ -17,10 +17,22 @@ label {
     width: 192px;
     height: 64px;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 21px;
     background: #3077C6;
     color: #FFFFFF;
     border-radius: 8px;
     border: none;
 }
+.peopleRoomsInput{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 297px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+
+

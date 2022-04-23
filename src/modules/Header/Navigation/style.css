@@ -29,7 +29,7 @@
 #account:hover, #themeSwitch:hover{
     fill: #F5BD41;
 }
-a {
+.wrapper a {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -38,7 +38,7 @@ a {
     margin-right: 24px;
     position: relative;
 }
-a:after{
+.wrapper a:after{
     margin-top: 12px;
     content: "";
     position: absolute;
